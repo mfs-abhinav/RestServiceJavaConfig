@@ -1,0 +1,11 @@
+<ehcache>
+
+	<defaultCache maxElementsInMemory="1500" eternal="false"
+		timeToIdleSeconds="0" timeToLiveSeconds="300" overflowToDisk="false"
+		diskPersistent="false" memoryStoreEvictionPolicy="LRU" />
+
+	<cache name="FACILITY_CONFIG_CACHE" maxElementsInMemory="1500"
+		eternal="false" timeToIdleSeconds="1800" timeToLiveSeconds="300"
+		overflowToDisk="false" />
+
+</ehcache>
